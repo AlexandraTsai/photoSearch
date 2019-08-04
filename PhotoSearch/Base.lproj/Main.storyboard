@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="8pD-6Y-4p7">
-                                <rect key="frame" x="0.0" y="188" width="414" height="674"/>
+                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
                                 <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <collectionViewLayout key="collectionViewLayout" id="Xi1-E1-JnX" customClass="PinterestLayout" customModule="PhotoSearch" customModuleProvider="target"/>
                                 <cells>
@@ -50,7 +50,7 @@
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="8pD-6Y-4p7" secondAttribute="trailing" id="azZ-31-5Ul"/>
                             <constraint firstItem="8pD-6Y-4p7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="bh3-KX-7Ov"/>
-                            <constraint firstItem="8pD-6Y-4p7" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="pCT-rK-hJj"/>
+                            <constraint firstItem="8pD-6Y-4p7" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="pCT-rK-hJj"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="8pD-6Y-4p7" secondAttribute="bottom" id="t2d-h5-cW4"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
